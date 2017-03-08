@@ -1,0 +1,6 @@
+{
+  "name": "Gwent API",
+  "description": "API for gwent cards and other information.",
+  "image": "heroku/java",
+  "addons": [ "heroku-postgresql" ]
+}
