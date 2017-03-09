@@ -18,4 +18,9 @@ public class MongoConfig {
         db.authenticate(mongoURI.getUsername(), mongoURI.getPassword());
         return db;
     }
+
+    @Bean
+    public CardRepository getCardRepository() {
+        return new CardRepository();
+    }
 }
